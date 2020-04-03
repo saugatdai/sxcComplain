@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h2{
+	color: #ddd;
+}
+body{
+	background: #000;
+	color: #ddd;
+}
+
+.container-fluid{
+	background-image: url('../images/sxc1.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	height: 600px;
+	background-attachment: fixed;
+}
+.detail {
+	margin: 3px;
+	border-bottom: 1px solid #777;
+}
+
+.reportForm {
+	width: 40%;
+	margin: auto;
+}
+
+#saugatNav {
+	width: 80%;
+	background: #0199ff;
+	height: 70px;
+	line-height: 67px;
+	margin: 0 auto 50px auto;
+	text-align: center;
+	padding: 0;
+	border-radius: 10px;
+}
+
+#saugatNav ul li {
+	display: inline;
+	padding
+	0;
+}
+
+#saugatNav ul li a {
+	padding: 25px;
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.5s;
+}
+
+#saugatNav ul li a:hover {
+	background: #ddd;
+	border-bottom: 3px solid brown;
+	text-decoration: none;
+	color: #000;
+}
+
+h2#index {
+	text-indent: 10%;
+}
+
+#navigation {
+	margin-bottom: 100px;
+}
+
+#navigation li:LAST-CHILD {
+	margin-bottom: 100px;
+}
+
+.big{
+	font-size: 33px;
+}
+.small{
+	font-size: 14px;
+	text-transform: capitalize;
+}
+#navigation ul li {
+	height: 350px;
+	float: left;
+	width: 30%;
+	margin: 1%;
+	display: inline;
+	text-align: center;
+	line-height: 19px;
+}
+
+#navigation ul li a {
+	height: 100%;
+	display: block;
+	background: #ff5c33;
+	font-size: 33px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 40px;
+	transition: all 0.5s ease;
+	opacity: 0.9;
+	padding-top: 150px;
+}
+
+
+#navigation ul li a:hover {
+	background: #ddd;
+	text-decoration: none;
+	color: #000;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background: #0199ff;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+.loginForm {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+}
+
+.loginForm * {
+	margin: 3px;
+}
+
+table {
+	margin: auto;
+}
+
+#complainTable th, #complainTable td {
+	padding-right: 3px;
+}
+
+#errorTable {
+	position: absolute;
+	left: 0;
+	top: 30%;
+}
+
+#errorTable td {
+	padding: 10px;
+}
+
+#errorHeading {
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: sans-serif;
+}
+
+table#viewData {
+	margin-bottom: 100px;
+	opacity: 0.9;
+}
+
+table#viewData, table#viewData th, table#viewData td {
+	border: 1px solid black;
+	padding: 10px;
+	color: #000;
+}
+
+table#viewData tr:nth-child(odd) {
+	background-color: #ddd;
+}
+
+table#viewData tr:nth-child(even) {
+	background-color: #ff5c33;
+}
